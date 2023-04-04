@@ -6,32 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="todo.png">
-    <style>
-        .todo {
-            margin-top: 30px;
-            display: flex;
-            justify-content: center;
-            font-size: 22px;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-
-        table {
-            border-collapse: collapse;
-        }
-
-        table th {
-            font-size: 26px;
-        }
-
-        table th,
-        td {
-            border: 1px solid black;
-            padding: 10px;
-        }
-
-        table tr:nth-child(even) {}
-    </style>
 </head>
 
 <body>
@@ -42,18 +18,12 @@
                     <th colspan="2">Todo List</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>re-modelling personal website</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>club management project</td>
-                </tr>
+            <tbody id="todos-list">
+
             </tbody>
         </table>
     </div>
 </body>
+<script src="script.js"></script>
 
 </html>

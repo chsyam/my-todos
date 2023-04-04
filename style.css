@@ -1,0 +1,33 @@
+.todo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th {
+    font-size: 26px;
+}
+
+table th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(234, 241, 239);
+}
+
+table tr:nth-child(odd) {
+    background-color: rgb(167, 227, 244);
+}
+
+table th {
+    background-color: white;
+}
