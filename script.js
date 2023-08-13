@@ -1,14 +1,10 @@
 var todos = [
   {
-    title: "Improving Quality of personal website",
-    link: "https://www.ionos.com/website-checker-result#menu-PRESENTATION",
-  },
-  {
-    title: "Placement Preparation Review",
+    title: "personnel website Completetion DeadLine - 17th Agust",
     link: "",
   },
   {
-    title: "Spring-boot personnel website initialization",
+    title: "Apache Kafka",
     link: "",
   },
 ];
