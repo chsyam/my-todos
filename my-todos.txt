@@ -1,0 +1,6 @@
+1. Need to update project content
+2. Convert navbar into sidebar for mobile version
+3. Update Experience content
+4. Need to update footer information.
+5. update certifications view to the slider
+6. update about me text
